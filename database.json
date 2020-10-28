@@ -1,0 +1,81 @@
+{
+	"users": {
+		"uid": {
+			"email": "string",
+			"igInfo": {			
+				"igName": "string",
+				"igPw": "string",
+				"igPicture": "string"
+			},
+			"status": "string",
+			"created_date": "date",
+			"credit": "number",
+			"nearest_campagin":{
+					"id":"string",
+					"is_running": "boolean",
+					"amount_performed": "number",
+					"topic": "string",
+					"input": "string",
+					"time_created": "date",
+					"time_start": "date",
+					"followed":{
+						"username":{
+							"userprofile_pic":"string",
+							"time_followed": "date",
+							"followed_back": "boolean"
+						}
+					}
+				},
+			"queue_campagin":{
+				"id": {
+					"amount_performed": "number",
+					"topic": "string",
+					"input": "string",
+					"time_created": "date",
+					"time_start": "date",
+					"time_ended": "date",
+					"followed":{
+						"username":{
+							"userprofile_pic":"string",
+							"time_followed": "date",
+							"followed_back": "boolean"
+						}
+					}
+				}
+			},
+			"follow_history": {
+				"id": {
+					"amount_performed": "number",
+					"topic": "string",
+					"input": "string",
+					"time_created": "date",
+					"time_start": "date",
+					"time_ended": "date",
+					"followed":{
+						"username":{
+							"userprofile_pic":"string",
+							"time_followed": "date",
+							"followed_back": "boolean"
+						}
+					}
+				}
+			},
+			"like_history": {
+				"id": {
+					"amount_performed": "number",
+					"input": "string",
+					"time_created": "date",
+					"time_start": "date",
+					"time_ended": "date",
+					"likeed":{
+						"media_id":{
+							"userprofile_pic":"string",
+							"time_likeed": "date",
+							"media_url": "string"
+						}
+					}
+				}
+			}
+		}
+	}
+}

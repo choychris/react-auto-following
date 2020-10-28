@@ -1,0 +1,14 @@
+# ignore node_modules
+**/node_modules
+
+# ignore yarn lock
+*.lock
+*.log
+
+# ignore DS store
+.DS_store
+
+# ignore sever-side code
+**/server
+
+forall-42e5e-firebase-adminsdk-z2qff-638f6a0b45
